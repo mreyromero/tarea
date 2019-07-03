@@ -1,0 +1,153 @@
+*{
+	box-sizing: border-box;
+}
+.container-full{
+	width: 100%;
+	background-color: black;
+}
+.header-site{
+	color: white;
+}
+
+.activado{
+	background-color: yellow;
+	border-radius: 10px;
+	color: black;
+}
+
+.seccion-features{
+	background-color: #9c9c9c;
+}
+
+.w-60{
+	width: 60%;
+}
+.box-icon{
+	padding-top: 50px;
+}
+.box-icon i{
+	font-size: 50px;
+}
+
+
+.head-acordion{
+	background-color: #222222;
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	height: 40px;
+
+	align-items: center;
+	padding-left: 20px;
+}
+.arrow{
+	background-color: #ececec;
+	color: black;
+	align-self: stretch;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+.contenido{
+	display: none;
+}
+
+.visto .arrow {
+	background-color: yellow;
+}
+.arrow i{
+	transition: all 0.4s linear;
+}
+.visto .arrow i{
+	transform: rotate(90deg);
+}
+
+
+.lista-footer li{
+	color: gray;
+}
+
+
+.lista-footer li:hover{
+	color: blue;
+}
+
+
+.footer-site
+{
+background-color:#e9e9e9;
+	
+}
+
+
+.footer-bottom{
+	background-color:#222222;
+/*	color: white;*/
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-top:4px solid yellow;
+}
+
+.lista-redes{
+	text-align: center;
+}
+.lista-redes li{
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.nav-site li:hover{
+	color: red;
+/*	font-family: arial;*/
+}
+
+.articulo:hover{
+	color: white;
+	background-color:grey;	
+
+
+}
+
+
+.fa-facebook-f
+{
+                color: white;
+                width: 20px;
+                text-align: center;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+.fa-twitter {
+                color: #00acee;
+                width: 20px;
+                text-align: center;
+                padding-left: 15px;
+                padding-right: 15px;
+}
+.fa-google-plus-g {
+                color: #d34836; 
+                width: 20px;
+                text-align: center;
+                padding-left: 15px;
+                padding-right: 15px;
+}
+.fa-linkedin-in{
+                color: #0e76a8 ;
+                width: 20px;
+                text-align: center;
+                padding-left: 15px;
+                padding-right: 15px;
+}
+.fa-youtube {
+                color: #c4302b;
+                width: 20px;
+                text-align: center;
+                padding-left: 15px;
+                padding-right: 15px;
+}
